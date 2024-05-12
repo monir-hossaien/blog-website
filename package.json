@@ -9,8 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "html-react-parser": "^5.1.10",
+    "jose": "^5.2.4",
+    "js-cookie": "^3.0.5",
+    "next": "14.1.4",
+    "nextjs-toploader": "^1.6.11",
+    "nodemailer": "^6.9.13",
     "react": "^18",
+    "react-bootstrap": "^2.10.2",
     "react-dom": "^18",
-    "next": "14.1.4"
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.12.1"
   }
 }
