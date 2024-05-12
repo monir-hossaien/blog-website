@@ -37,4 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ##Profile  
 ----
-<image src="./public/images/monir.png" height="400" width="400"/
+<image src="./public/images/monir.png" height="500" width="500"/>
