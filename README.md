@@ -35,4 +35,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-<image src="./public/images/monir.png"/>
+<image src="./public/images/monir.png" height="600" width="600"/>
