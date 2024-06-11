@@ -4,6 +4,7 @@ import Hero from "@/components/news/Hero";
 import PopularList from "@/components/news/PopularList";
 import NewsList from "@/components/news/NewsList";
 
+
 async function getData(){
     let Slider=(await (await fetch(`${process.env.HOST}/api/news/type?type=Slider`)).json())['data']
     let Featured=(await (await fetch(`${process.env.HOST}/api/news/type?type=Featured`)).json())['data']
@@ -17,7 +18,9 @@ const Page =  async () => {
 
     const data=await getData();
     return (
+    
         <PlainLayout>
+
             <Hero slider={data['Slider']} featured={data['Featured']}/>
             <div className="container mt-4">
                 <h5>LATEST</h5>

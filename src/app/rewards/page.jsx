@@ -1,6 +1,5 @@
 import React from 'react';
 import PlainLayout from "@/components/master/Plain-Layout";
-import PopularList from "@/components/news/PopularList";
 import Rewards from "@/components/master/Rewards";
 
 

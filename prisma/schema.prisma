@@ -87,3 +87,14 @@ model policies {
   long_des String @db.LongText
   type     String @db.VarChar(50)
 }
+
+model seo {
+  id          Int    @id @default(autoincrement())
+  page        String @db.VarChar(200)
+  title       String @db.VarChar(200)
+  description String @db.LongText
+  keywords    String @db.VarChar(500)
+  image       String @db.VarChar(300)
+  createdAt DateTime @default(now()) @db.Timestamp(0)
+  updatedAt DateTime @default(now()) @updatedAt @db.Timestamp(0)
+}

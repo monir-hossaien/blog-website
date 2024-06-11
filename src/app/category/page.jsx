@@ -4,6 +4,16 @@ import NewsList from "@/components/news/NewsList";
 import PopularList from "@/components/news/PopularList";
 
 
+export async function generateMetadata(){
+    return{
+        title:{
+            absolute:"Category"
+        }
+        
+    }
+}
+
+
 async function getData(id){
 
     let News=(await (await fetch(`${process.env.HOST}/api/news/category?catID=${id}`)).json())['data']

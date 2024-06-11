@@ -16,6 +16,7 @@
     "jose": "^5.2.4",
     "js-cookie": "^3.0.5",
     "next": "14.1.4",
+    "next-seo": "^6.5.0",
     "nextjs-toploader": "^1.6.11",
     "nodemailer": "^6.9.13",
     "react": "^18",
