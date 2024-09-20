@@ -44,9 +44,8 @@ const Footer = (props) => {
                                     }
                                 })
                             }
-
-
                         </div>
+
                         <div className=" col-md-3 col-sm-6 p-3">
                             <h5 className="text-white fw-bold my-3"> LEGAL </h5>
                             <ul className="list-unstyled text-white">
